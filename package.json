@@ -60,9 +60,14 @@
     "asset-map"
   ],
   "dependencies": {
-    "ember-cli-babel": "^6.11.0"
+    "ember-cli-babel": "^6.11.0",
+    "ember-fetch": "^7.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "volta": {
+    "node": "10.19.0",
+    "yarn": "1.22.4"
   }
 }
